@@ -124,4 +124,76 @@
   actual-result: |
     Отображено окно корзины с товаром ожидающим оформления
     
-    
+   
+    summary: |
+    В мобильной версии не видно цифр в полях фильтрации товара по цене
+  environment: |
+    Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+  steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. Ввести цифры в поле фильтрации по цене
+  expected-result: |
+    Отображены все введенные цифры
+  actual-result: |
+    Отображена половина первой введенной цифры
+   
+   
+   
+    summary: |
+    В мобильной версии сайта (английская версия) элементы интерфейса накладываются друг на друга
+  environment: |
+    Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+  steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+  expected-result: |
+    Элементы интерфейса корректно отображены
+  actual-result: |
+    Элементы интерфейса накладываются друг на друга 
+   
+      
+    summary: |
+    В мобильной версии сайта (русская версия) область категорий товаров сильно сжата 
+  environment: |
+    Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+  steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+  expected-result: |
+    Область категорий товаров корректно отображены
+  actual-result: |
+     Область категорий товаров сжата 
+     
+         summary: |
+    В мобильной версии сайта (русская и английская версия) область категорий товаров сильно сжата 
+  environment: |
+    Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Honor 8A,  ОС Android 9
+  steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+  expected-result: |
+    Область категорий товаров корректно отображены
+  actual-result: |
+     Область категорий товаров сжата 
+     
+     
+     
+           
+    summary: |
+    В мобильной версии сайта (русская и английская версия) кнопка текст на кнопке "Checkout" ("Оформить заказ") некорректно отображен
+  environment: |
+    Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+  steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. Добавить любой товар в "Корзину"
+    3. Нажать кнопку "Корзина"
+  expected-result: |
+    Текст на кнопке "Checkout" в английской версии и кнопке "Оформить заказ" полностью отображен на кнопке 
+  actual-result: |
+    Текст на кнопке "Checkout" в английской версии и кнопке "Оформить заказ" в русской версии некорректно отображены
+     
+     
+     
