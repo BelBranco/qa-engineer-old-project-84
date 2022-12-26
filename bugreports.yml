@@ -4,6 +4,7 @@
     Если сократить размер страници от 991х307 до 768х307 пропадает возможность ввода цены в поле фильтрации товара по цене
   environment: |
     Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
     ОС Windows 7 SP1
   requirement: |
     Возможность ввода цены в поле фильтрации товара по цене при уменьшении страници
@@ -18,10 +19,14 @@
     
     
 - summary: |
-    Возможность ввода в поле фильтрации товара по цене латинскую "e"
+    Возможность ввода в поле фильтрации товара по цене латинскую "e" (и в мобильной версии)
   environment: |
-    Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
     ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   steps-to-reproduce: |
     1. Зайти на сайт https://hexlet-products-store.vercel.app/
     2. В поле фильтрации товара по цене ввести латинскую "e"
@@ -34,10 +39,14 @@
     
 ---
 - summary: |
-    На русской версии сайта категории товаров написанны на английском
+    На русской версии сайта категории товаров написанны на английском (и в мобильной версии)
   environment: |
-    Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
     ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   steps-to-reproduce: |
     1. Зайти на сайт https://hexlet-products-store.vercel.app/
     2. Переключиться на русскую версию сайта
@@ -48,13 +57,36 @@
     Категории товаров написанны на английском языке
     
     
+    ---
+- summary: |
+    В русской версии сайта, описания товаров написанны на английском (и в мобильной версии)
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+  steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. Переключиться на русскую версию сайта
+    3. Выбрать любой товар (Например Microsoft Surface Laptop 4)
+  expected-result: |
+    Описание товаров отображено на русском
+  actual-result: |
+    Описание товаров отображено на английском
+    
     
     
 - summary: |
-    На странице любого товара (например iPhone 9), отображено название категории при нажатии на которую ничего не происходит
+    На странице любого товара (например iPhone 9), отображено название категории при нажатии на которую ничего не происходит (и в мобильной версии)
   environment: |
-    Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
     ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   steps-to-reproduce: |
     1. Зайти на сайт https://hexlet-products-store.vercel.app/
     2. Выбрать любой товар (например iPhone 9)
@@ -69,10 +101,14 @@
     
     
 - summary: |
-    Не работает кнопка "х" в окне "Заказ успешно формлен"
+    Не работает кнопка "х" в окне "Заказ успешно формлен" (и в мобильной версии)
   environment: |
-    Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
     ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   steps-to-reproduce: |
     1. Зайти на сайт https://hexlet-products-store.vercel.app/
     2. Выбрать любой товар (например iPhone 9)
@@ -91,10 +127,14 @@
     
     
 - summary: |
-    Невозможно увеличить дополнительные картинки на странице любого товара (например iPhone X)
+    Невозможно увеличить дополнительные картинки на странице любого товара (например iPhone X) (и в мобильной версии)
   environment: |
-    Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
     ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   steps-to-reproduce: |
     1. Зайти на сайт https://hexlet-products-store.vercel.app/
     2. Выбрать любой товар (например iPhone X)
@@ -107,10 +147,14 @@
     
     
     - summary: |
-    Товар не уходит из корзины, после оформления заказа 
+    Товар не уходит из корзины, после оформления заказа (и в мобильной версии)
   environment: |
-    Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
     ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   steps-to-reproduce: |
     1. Зайти на сайт https://hexlet-products-store.vercel.app/
     2. Выбрать любой товар (например Huawei P30)
@@ -165,7 +209,7 @@
   actual-result: |
      Область категорий товаров сжата 
      
-         summary: |
+  summary: |
     В мобильной версии сайта (русская и английская версия) область категорий товаров сильно сжата 
   environment: |
     Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
@@ -196,4 +240,69 @@
     Текст на кнопке "Checkout" в английской версии и кнопке "Оформить заказ" в русской версии некорректно отображены
      
      
+     
+     
+   summary: |
+    В русской версии сайта, при обновлении страницы, сайт становится на английском (и в мобильной версии)
+   environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+ steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. В правом верхнем углу главной страници нажать на кнопку "Language"
+    3. В выпадающем меню выбрать "Russian"
+    4. Обновить страницу в браузере
+  expected-result: |
+    Текст сайта остается на русском
+  actual-result: |
+    Текст сайта меняется на английский
+    
+    
+    
+   summary: |
+    Фильтрация товара по цвету
+   environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+ steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. Выбрать цвет
+  expected-result: |
+    Отображены товары в выбранном цвете
+  actual-result: |
+    Функция не реализована
+    
+    
+   summary: |
+    Фильтрация товара по размеру
+   environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+ steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. Выбрать размер
+  expected-result: |
+    Отображены товары в выбранном размере
+  actual-result: |
+    Функция не реализована
+    
+
+    
+    
+    
+    
+    
+    
      
