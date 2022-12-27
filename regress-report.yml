@@ -1,0 +1,184 @@
+- summary: |
+    На русской версии сайта категории товаров написанны на английском (и в мобильной версии)
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+  steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. Переключиться на русскую версию сайта
+    3. Нажать кнопку "категории"
+  expected-result: |
+    Категории товаров написанны на русском языке
+  actual-result: |
+    Категории товаров написанны на английском языке
+    
+    
+    ---
+- summary: |
+    В русской версии сайта, описания товаров написанны на английском (и в мобильной версии)
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+  steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. Переключиться на русскую версию сайта
+    3. Выбрать любой товар (Например Microsoft Surface Laptop 4)
+  expected-result: |
+    Описание товаров отображено на русском
+  actual-result: |
+    Описание товаров отображено на английском
+    
+    
+    
+    - summary: |
+    Не работает кнопка "х" в окне "Заказ успешно формлен" (и в мобильной версии)
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+  steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. Выбрать любой товар (например iPhone 9)
+    3. Нажать кнопку "В корзину" 
+    4. Нажать кнопку "Корзина" в верхнем правом углу экрана
+    5. Нажать кнопку "Оформить заказ"
+    6. Отображено окно "Заказ успешно формлен"
+    7. Нажать кнопку "х"
+  expected-result: |
+    Окно закрылось, отображена страница офориления заказа
+  actual-result: |
+    Ничего не происходит (Отображено окно "Заказ успешно формлен")
+    
+    
+        
+    
+    - summary: |
+    Товар не уходит из корзины, после оформления заказа (и в мобильной версии)
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+  steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. Выбрать любой товар (например Huawei P30)
+    3. Нажать кнопку "В корзину" 
+    4. Нажать кнопку "Корзина" в верхнем правом углу экрана
+    5. Нажать кнопку "Оформить заказ"
+    6. Отображено окно "Заказ успешно формлен"
+    7. Закрыть окно "Заказ успешно формлен"
+  expected-result: |
+    Отображено окно без оформленного товара 
+  actual-result: |
+    Отображено окно корзины с товаром ожидающим оформления
+    
+   
+        
+   summary: |
+    В русской версии сайта, при обновлении страницы, сайт становится на английском (и в мобильной версии)
+   environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+ steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. В правом верхнем углу главной страници нажать на кнопку "Language"
+    3. В выпадающем меню выбрать "Russian"
+    4. Обновить страницу в браузере
+  expected-result: |
+    Текст сайта остается на русском
+  actual-result: |
+    Текст сайта меняется на английский
+    
+    
+    
+   summary: |
+    Фильтрация товара по цвету
+   environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+ steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. Выбрать цвет
+  expected-result: |
+    Отображены товары в выбранном цвете
+  actual-result: |
+    Функция не реализована
+    
+    
+   summary: |
+    Фильтрация товара по размеру
+   environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+ steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. Выбрать размер
+  expected-result: |
+    Отображены товары в выбранном размере
+  actual-result: |
+    Функция не реализована
+    
+- summary: |
+    Проверка возможности связаться с тех. поддержкой на сайте
+   environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+   steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. 
+    3. 
+   expected-result: |
+    Отображены товары в выбранном размере
+   actual-result: |
+    Функция не реализована
+    
+    
+        
+   summary: |
+    Шапка (хеддер) сайта закрепленна и не перемещается вниз
+   environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+ steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. Прокрутить страницу вниз
+  expected-result: |
+    Шапка (хеддер) сайта перемещается вместе с перемещением пользователя
+  actual-result: |
+    Шапка (хеддер) закрепленной и не перемещается
+    
+    
+    
