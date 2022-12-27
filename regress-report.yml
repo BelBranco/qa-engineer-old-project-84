@@ -1,3 +1,313 @@
+---
+- summary: |
+    Оформление товара (Например HP Pavilion 15-DK1056WM)
+  requirement: |
+    При успешном оформлении товара будет отображено окно "Заказ успешно формлен"
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. Выбрать любой товар (например HP Pavilion 15-DK1056WM)
+    2. Нажать кнопку "В корзину" 
+    3. Нажать кнопку "Корзина" в верхнем правом углу экрана
+    4. Нажать кнопку "Оформить заказ"
+    5. Отображено окно "Заказ успешно формлен"
+  expected-result: |
+    Товар оформлен
+
+
+- summary: |
+    Фильтрация товара по цене 
+  requirement: |
+    При фильтрация товара по цене на главной странице будут отображены товары в выбранном диапазоне
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. Прокрутить страницу вниз до пункта цена  
+    2. В поля "от" и "до" ввести цифры для фильтрации по цене
+  expected-result: |
+    отображены товары в выбранном диапазоне цен
+
+
+
+
+- summary: |
+    Проверка поиска товара на сайте (например iPhone 9)
+  requirement: |
+    При введении в окно поиска названи
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. Прокрутить страницу вниз до пункта цена  
+    2. В поля "от" и "до" ввести цифры для фильтрации по цене
+  expected-result: |
+    отображены товары в выбранном диапазоне цен
+
+
+
+
+
+- summary: |
+    Проверка поиска товара на сайте по категории (например "skincare")
+  requirement: |
+    При выборе нужной категории, отображены товары тольлко из этой категории
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. Нажать на ктопку "категории"  
+    2. Из отображенного списка выбрать нужную категорию (например "skincare")
+  expected-result: |
+    На главной странице отображены товары только из выбранной ктегории (например "skincare")
+
+
+
+- summary: |
+    Проверка поиска товара на сайте по производителю (например "Samsung")
+  requirement: |
+    При выборе производителя, отображены товары тольлко нужного производителя (например "Samsung")
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. Под заголовком "Производитель" нажать на чек-бокс напротив нужного производителя (например "Samsung")
+  expected-result: |
+    На главной странице отображены товары только нужного производителя  (например "Samsung")
+    
+    возможность добавлять товары в корзину и просматривать содержимое корзины
+    
+    ---
+- summary: |
+    Проверка возможности добавлять товары в корзину
+  requirement: |
+    При добавлении товара в корзину, выбранный товар находится в корзине 
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. Выбрать любой товар (например OPPOF19)
+    2. Нажать кнопку "В корзину" 
+    3. Нажать кнопку "Корзина" в верхнем правом углу экрана
+  expected-result: |
+    Отображены страница корзины с нужным товаром 
+    
+ 
+
+    - summary: |
+    Проверка возможности поменять язык сайта с английского на русский
+  requirement: |
+    На сайте меняется язык текста 
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. В правом верхнем углу главной страници нажать на кнопку "Language"
+    2. В выпадающем меню выбрать "Russian"
+  expected-result: |
+    Текст сайта на русском
+    
+    
+    
+- summary: |
+    Проверка возможности просматривать подробную информацию о товаре (например iPhone 9)
+  requirement: |
+    При выборе товара отображено его описание
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. Выбрать любой товар (например iPhone 9)
+  expected-result: |
+    отображены страница тоавра с подробной информацией о нем.
+
+
+
+    
+- summary: |
+    Фильтрация товара по цвету
+  requirement: |
+    При фильтрация товара по цвету на главной странице будут отображены товары в выбранном цвете
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. 
+    2. 
+  expected-result: |
+    Отображены товары в выбранном цвете
+    
+    
+        
+- summary: |
+    Фильтрация товара по размеру
+  requirement: |
+    При фильтрация товара по цвету на главной странице будут отображены товары в выбранном размере
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. 
+    2. 
+  expected-result: |
+    Отображены товары в выбранном размере
+
+    
+            
+- summary: |
+    Проверка возможности связаться с тех. поддержкой на сайте
+  requirement: |
+    Возможность связаться с поддержкой
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. 
+    2. 
+  expected-result: |
+    Отображены товары в выбранном размере
+    
+    
+
+
+            
+- summary: |
+    Проверка устойчивости сайта
+  requirement: |
+    Ввод в меню поиска html разметку, бязь, иероглифы
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. В поле "Поиск" ввести символы
+  expected-result: |
+    По запросу ничего не нашлось 
+    
+
+            
+- summary: |
+    Проверка устойчивости сайта 2000 товаров в "Корзину"
+  requirement: |
+    Добавить в "Корзину" 2000 товаров
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. На главной странице добавлять все товары 
+    2. Зайти в корзину 
+    3. Нажать кнопку "Оформить заказ"
+    4. Отображено окно "Заказ успешно формлен"
+  expected-result: |
+    Отображено окно "Заказ успешно формлен"
+    
+- summary: |
+    Проверка устойчивости сайта, оформление товаров на 700.000 $
+  requirement: |
+    Оформление товаров на 700.000 $
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. На главной странице добавлять товары 
+    2. Зайти в корзину 
+    3. Нажать кнопку "Оформить заказ"
+    4. Отображено окно "Заказ успешно формлен"
+  expected-result: |
+    Отображено окно "Заказ успешно формлен"
+
+    
+- summary: |
+    Проверка возможности просмотра изображений товара
+  requirement: |
+    Просмотра изображений товара
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. На главной выбрать товар  (например iPhone 9)
+    2. Нажать на дополнительные картинкти для увеличения
+  expected-result: |
+    Выбранное изображение увеличилось 
+
+
+
+
+
+
+
+
+
+
+- summary: |
+    Оформление товара
+  status: pass
+
+- summary: |
+    Фильтрация товара по цене 
+  status: pass
+
+- summary: |
+    Проверка поиска товара на сайте
+  status: pass
+
+- summary: |
+    Проверка поиска товара на сайте по категории
+  status: pass
+
+- summary: |
+    Проверка поиска товара на сайте по производителю
+  status: pass
+
+- summary: |
+    Проверка возможности добавлять товары в корзину
+  status: pass
+
+- summary: |
+    Проверка возможности поменять язык сайта с английского на русский
+  status: pass
+  
+- summary: |
+     Ввод в меню поиска html разметку, бязь, иероглифы
+  status: pass
+  
+- summary: |
+  Проверка устойчивости сайта 2000 товаров в "Корзину"
+  status: pass
+  
+- summary: |
+  Проверка устойчивости сайта, оформление товаров на 700.000 $
+  status: pass
+  
+    
+- summary: |
+  Проверка возможности просмотра изображений товара
+ status: pass  
+  
+  
+
+- summary: |
+     Фильтрация товара по цвету
+  status: fail
+
+- summary: |
+    Фильтрация товара по размеру
+  status: fail
+  
+- summary: |
+    Проверка возможности связаться с тех. поддержкой на сайте
+  status: fail
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - summary: |
     На русской версии сайта категории товаров написанны на английском (и в мобильной версии)
   environment: |
@@ -181,4 +491,158 @@
     Шапка (хеддер) закрепленной и не перемещается
     
     
+  summary: |
+    В выпадающем меню "категории" отображены не все категории товаров
+   environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+ steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. Нажать кнопку "Категории"
+  expected-result: |
+    Отображен список всех доступных на сайте категорий товаров 
+  actual-result: |
+    Отображено только шесть категорий
     
+    
+    
+ summary: |
+    При выборе недоступной "категории" (например "furniture") пропадает возможность перелистывать страницы
+   environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+ steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. Пролистнуть страницу 
+    3. Выбрать товар "Mornadi Velvet Bed" из категории "furniture"
+    4. На странице товара нажать надпись "#furniture"
+  expected-result: |
+    Отображен список товаров из категории "furniture"
+  actual-result: |
+    Отображена начальная страница без возможности перелистывания 
+    
+    
+    
+    
+    summary: |
+    Товар "Mornadi Velvet Bed" из категории "furniture" стоит 33.20$
+   environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+ steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. Пролистнуть страницу 
+    3. Выбрать товар "Mornadi Velvet Bed" из категории "furniture"
+  expected-result: |
+    Цена товара должна быть выше 
+  actual-result: |
+    Цена товара 33.20$ (слишком дешево для кровати)
+    
+    
+    
+    
+  summary: |
+    В выпадающем меню "категории" отображен пустой пункт
+   environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+ steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. Нажать кнопку "Категории"
+  expected-result: |
+    Отображен список категорий
+  actual-result: |
+    Одна "пустая" (без текста) категория
+    
+
+    
+ summary: |
+    При перелистывании страници не отображены номера страниц
+   environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+ steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. Нажать кнопку "Next" ("Следующая")
+ expected-result: |
+    Отображен номер страници над списком товаров и между кнопками "Next" и "Previous"
+ actual-result: |
+    Отображен кнопки "Next" и "Previous"
+    
+    
+ summary: |
+    Надпись APPle напротив чекбокса в меню под заголовком "Производитель" отображена с ошибкой
+ environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+     steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+ expected-result: |
+    Надпись Apple напротив чекбокса в меню под заголовком "Производитель" 
+ actual-result: |
+    Надпись APPle отображена с ошибкой
+    
+    
+  - summary: |
+    При выборе категории. в которую входит один товар, окно товара на странице отображено в сжатом виде
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+  steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+    2. В пункте производитель вбрыть "Infinix
+  expected-result: |
+    Отображено окно товара в сжатом виде
+  actual-result: |
+    Окно товара отображено без сжатия
+
+
+
+- summary: |
+    Возможность ввода в поле фильтрации товара по цене любые символы (и в мобильной версии)
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+  steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+  expected-result: |
+    В поле фильтрации товара по цене, можно ввести только цифры
+  actual-result: |
+    Любые символы в поле ввода цены (на отображение товаров не влияет)
+    
+
+
+
+
