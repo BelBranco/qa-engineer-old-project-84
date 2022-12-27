@@ -382,7 +382,7 @@
     Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
     Xiaomi Redmi Note 11,  ОС Android 12
     Honor 8A,  ОС Android 9
-  steps-to-reproduce: |
+ steps-to-reproduce: |
     1. Зайти на сайт https://hexlet-products-store.vercel.app/
     2. Выбрать любой товар (например Huawei P30)
     3. Нажать кнопку "В корзину" 
