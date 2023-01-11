@@ -157,14 +157,36 @@
   expected-result: |
     Отображены товары в выбранном размере
     
-    
 
 
-            
 - summary: |
-    Проверка устойчивости сайта
+    Ввод в меню поиска иероглифы
   requirement: |
-    Ввод в меню поиска html разметку, бязь, иероглифы
+    Ввод в меню поиска иероглифы
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. В поле "Поиск" ввести символы
+  expected-result: |
+    По запросу ничего не нашлось 
+
+
+- summary: |
+    Ввод в меню поиска бязь
+  requirement: |
+    Ввод в меню поиска бязь
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. В поле "Поиск" ввести символы
+  expected-result: |
+    По запросу ничего не нашлось 
+       
+       
+- summary: |
+    Ввод в меню поиска html разметку
+  requirement: |
+    Ввод в меню поиска html разметку
   prerequisites: |
     Зайти на сайт https://hexlet-products-store.vercel.app/
   steps:
@@ -175,7 +197,7 @@
 
             
 - summary: |
-    Проверка устойчивости сайта 2000 товаров в "Корзину"
+    Добавление 2000 товаров в "Корзину"
   requirement: |
     Добавить в "Корзину" 2000 товаров
   prerequisites: |
