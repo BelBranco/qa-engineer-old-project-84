@@ -1,6 +1,13 @@
 ---
 - summary: |
     Оформление товара (Например HP Pavilion 15-DK1056WM)
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     При успешном оформлении товара будет отображено окно "Заказ успешно формлен"
   prerequisites: |
@@ -17,6 +24,13 @@
 
 - summary: |
     Фильтрация товара по цене 
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     При фильтрация товара по цене на главной странице будут отображены товары в выбранном диапазоне
   prerequisites: |
@@ -31,6 +45,13 @@
 
 - summary: |
     Фильтрация товара по цене (отрицательные числа)
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     При фильтрация товара по цене на главной странице будут отображены товары в выбранном диапазоне
   prerequisites: |
@@ -44,7 +65,14 @@
 
 
 - summary: |
-    Фильтрация товара по цене 
+    Фильтрация товара по цене
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     Отрицательные числа в поле "от"
   prerequisites: |
@@ -58,6 +86,13 @@
 
 - summary: |
     Фильтрация товара по цене (отрицательные числа)
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     Отрицательные числа в поле "до"
   prerequisites: |
@@ -74,6 +109,13 @@
 
 - summary: |
     Проверка поиска товара на сайте (например iPhone 9)
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     Проверка функции поиска
   prerequisites: |
@@ -87,7 +129,72 @@
 
 
 - summary: |
+    Ввод в меню поиска иероглифы
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+  requirement: |
+    Ввод в меню поиска иероглифы
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. В поле "Поиск" ввести иероглифы
+  expected-result: |
+    По запросу ничего не нашлось 
+
+
+- summary: |
+    Ввод в меню поиска бязь
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+  requirement: |
+    Ввод в меню поиска бязь
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. В поле "Поиск" ввести бязь
+  expected-result: |
+    По запросу ничего не нашлось 
+       
+       
+- summary: |
+    Ввод в меню поиска html разметку
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+  requirement: |
+    Ввод в меню поиска html разметку
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. В поле "Поиск" html разметку
+  expected-result: |
+    По запросу ничего не нашлось 
+    
+
+
+- summary: |
     Проверка поиска товара на сайте по категории (например "skincare")
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     При выборе нужной категории, отображены товары тольлко из этой категории
   prerequisites: |
@@ -102,6 +209,13 @@
 
 - summary: |
     Проверка поиска товара на сайте по производителю (например "Samsung")
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     При выборе производителя, отображены товары тольлко нужного производителя (например "Samsung")
   prerequisites: |
@@ -116,6 +230,13 @@
     ---
 - summary: |
     Проверка возможности добавлять товары в корзину
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     При добавлении товара в корзину, выбранный товар находится в корзине 
   prerequisites: |
@@ -131,6 +252,13 @@
      ---
 - summary: |
     Проверка возможности удалять товары из корзины
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     Удалять товары из корзины 
   prerequisites: |
@@ -147,6 +275,13 @@
       ---
 - summary: |
     Проверка возможности продолжения покупок из корзины с добавленным товаром
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     При добавлении товара в корзину, выбранный товар находится в корзине 
   prerequisites: |
@@ -163,6 +298,13 @@
 
 - summary: |
     Проверка возможности поменять язык сайта с английского на русский
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     На сайте меняется язык текста 
   prerequisites: |
@@ -178,6 +320,13 @@
     
 - summary: |
     Проверка возможности поменять язык сайта с русского на английский
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     На сайте меняется язык текста 
   prerequisites: |
@@ -193,9 +342,15 @@
     
     
     
-    
 - summary: |
     Проверка возможности просматривать подробную информацию о товаре (например iPhone 9)
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     При выборе товара отображено его описание
   prerequisites: |
@@ -210,6 +365,13 @@
     
 - summary: |
     Фильтрация товара по цвету
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     При фильтрация товара по цвету на главной странице будут отображены товары в выбранном цвете
   prerequisites: |
@@ -223,6 +385,13 @@
         
 - summary: |
     Фильтрация товара по размеру
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     При фильтрация товара по цвету на главной странице будут отображены товары в выбранном размере
   prerequisites: |
@@ -236,6 +405,13 @@
            
 - summary: |
    Проверка отображения товаров только со скидкой
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     При фильтрация отображены товары только со скидкой
   prerequisites: |
@@ -248,6 +424,13 @@
     
 - summary: |
    Проверка отображения товаров без скидки
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     При фильтрация отображены товары без скидки
   prerequisites: |
@@ -256,50 +439,18 @@
     1. Выставить фильтр товаров без скидки
   expected-result: |
     Отображены товары без скидки
-
-
-
-
-
-- summary: |
-    Ввод в меню поиска иероглифы
-  requirement: |
-    Ввод в меню поиска иероглифы
-  prerequisites: |
-    Зайти на сайт https://hexlet-products-store.vercel.app/
-  steps:
-    1. В поле "Поиск" ввести иероглифы
-  expected-result: |
-    По запросу ничего не нашлось 
-
-
-- summary: |
-    Ввод в меню поиска бязь
-  requirement: |
-    Ввод в меню поиска бязь
-  prerequisites: |
-    Зайти на сайт https://hexlet-products-store.vercel.app/
-  steps:
-    1. В поле "Поиск" ввести бязь
-  expected-result: |
-    По запросу ничего не нашлось 
-       
-       
-- summary: |
-    Ввод в меню поиска html разметку
-  requirement: |
-    Ввод в меню поиска html разметку
-  prerequisites: |
-    Зайти на сайт https://hexlet-products-store.vercel.app/
-  steps:
-    1. В поле "Поиск" html разметку
-  expected-result: |
-    По запросу ничего не нашлось 
     
 
             
 - summary: |
     Добавление 2000 товаров в "Корзину"
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     Добавить в "Корзину" 2000 товаров
   prerequisites: |
@@ -314,6 +465,13 @@
     
 - summary: |
     Проверка устойчивости сайта, оформление товаров на 700.000 $
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     Оформление товаров на 700.000 $
   prerequisites: |
@@ -329,6 +487,13 @@
     
 - summary: |
     Проверка возможности просмотра изображений товара
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     Просмотра изображений товара
   prerequisites: |
@@ -342,6 +507,13 @@
     
 - summary: |
     Проверка хэштега категории на странице товара (например iPhone 9)
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: |
     Проверка хэштега
   prerequisites: |
@@ -355,6 +527,13 @@
    
 - summary: |
     Проверка чекбокса "В наличии"
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
   requirement: | 
     Проверка товаров, которых нет в наличии
   prerequisites: |
