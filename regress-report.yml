@@ -642,7 +642,23 @@
   actual-result: |
     Любые символы в поле ввода цены (на отображение товаров не влияет)
     
-
+    
+    
+- summary: |
+    Ввод в поле "До" (фильтрации товара по цене)  отрицательные числа (и в мобильной версии)
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+  steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
+  expected-result: |
+    Отображено уведомление "Ничего не найдено!"
+  actual-result: |
+    На главной странице пропадает возможность перелистывать страницы
 
 
 
