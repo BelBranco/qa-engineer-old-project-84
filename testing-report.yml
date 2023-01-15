@@ -94,7 +94,7 @@ status: pass
 
 
  - summary: |
- Проверка списка категорий
+ Проверка списка всех категорий
  status: fail
 
  - summary: |
