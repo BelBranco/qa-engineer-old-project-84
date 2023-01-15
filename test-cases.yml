@@ -243,9 +243,52 @@
   expected-result: |
     На главной странице отображены товары только нужного производителя  (например "Samsung")
     
-    возможность добавлять товары в корзину и просматривать содержимое корзины
     
-    ---
+    
+- summary: |
+    Проверка поиска товара на сайте по производителю (например "Samsung")
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+  requirement: |
+    При выборе производителя, отображены товары тольлко нужного производителя (например "Samsung")
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. Под заголовком "Производитель" нажать на чек-бокс напротив нужного производителя (например "Samsung")
+  expected-result: |
+    На главной странице отображены товары только нужного производителя  (например "Samsung")
+    
+    
+    
+       
+- summary: |
+    Выбрать список со всеми производителями
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+  requirement: |
+    Выбрать список со всемх доступных производителей
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. Открыть список производителей
+  expected-result: |
+    Отображен список всех производителей
+    
+    
+    
+    
+    
+
 - summary: |
     Проверка возможности добавлять товары в корзину
   environment: |
@@ -580,6 +623,27 @@
   expected-result: |
     Отображена страница с товарами из категории "#smartphones"
     
+   
+      
+- summary: |
+    Проверка списка категорий
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+  requirement: |
+    Проверка списка категорий
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. Нажать кнопку "Категории"
+  expected-result: |
+    Отображен список всех категорий
+   
+   
    
 - summary: |
     Проверка чекбокса "В наличии"
