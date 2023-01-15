@@ -266,6 +266,24 @@
   expected-result: |
     Отображены страница корзины с нужным товаром 
     
+    
+    - summary: |
+    Проверка возможности перейти в корзину
+  environment: |
+    PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
+    Firefox browser 108.0.1 (64-разрядный)
+    ОС Windows 7 SP1
+    Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
+    Xiaomi Redmi Note 11,  ОС Android 12
+    Honor 8A,  ОС Android 9
+  requirement: |
+    Открыть корзину
+  prerequisites: |
+    Зайти на сайт https://hexlet-products-store.vercel.app/
+  steps:
+    1. Нажать кнопку "В корзину" 
+  expected-result: |
+    Отображены страница корзины 
  
      ---
 - summary: |
