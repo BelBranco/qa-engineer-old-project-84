@@ -53,6 +53,10 @@ status: pass
   status: pass
   
 - summary: |
+Проверка возможности перейти в корзин
+  status: pass
+  
+- summary: |
 Проверка возможности удалять товары из корзины
  status: pass
  
