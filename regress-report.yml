@@ -146,29 +146,29 @@ status: fail
     
     
     
- summary: |
-    При выборе недоступной "категории" (например "furniture") пропадает возможность перелистывать страницы
-   environment: |
+ summary: | 
+    При выборе недоступной "категории" (например "furniture") пропадает возможность перелистывать страницы (и в мобильной версии)
+environment: |
     PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
     Firefox browser 108.0.1 (64-разрядный)
     ОС Windows 7 SP1
     Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
     Xiaomi Redmi Note 11,  ОС Android 12
     Honor 8A,  ОС Android 9
- steps-to-reproduce: |
+steps-to-reproduce: |
     1. Зайти на сайт https://hexlet-products-store.vercel.app/
     2. Пролистнуть страницу 
     3. Выбрать товар "Mornadi Velvet Bed" из категории "furniture"
     4. На странице товара нажать надпись "#furniture"
-  expected-result: |
+expected-result: |
     Отображен список товаров из категории "furniture"
-  actual-result: |
+actual-result: |
     Отображена начальная страница без возможности перелистывания 
     
     
     
-  summary: |
-    В выпадающем меню "категории" отображен пустой пункт
+summary: |
+    В выпадающем меню "категории" отображен пустой пункт (и в мобильной версии)
    environment: |
     PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
     Firefox browser 108.0.1 (64-разрядный)
@@ -176,28 +176,28 @@ status: fail
     Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
     Xiaomi Redmi Note 11,  ОС Android 12
     Honor 8A,  ОС Android 9
- steps-to-reproduce: |
+steps-to-reproduce: |
     1. Зайти на сайт https://hexlet-products-store.vercel.app/
     2. Нажать кнопку "Категории"
-  expected-result: |
+expected-result: |
     Отображен список категорий
-  actual-result: |
+actual-result: |
     Одна "пустая" (без текста) категория, при выборе которой пропадает возможность перелистывания страниц
     
 
 
- - summary: |
+- summary: |
     При выборе категории в которую входит один товар, окно товара на странице отображено в сжатом виде
- environment: |
+environment: |
     PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
     Firefox browser 108.0.1 (64-разрядный)
     ОС Windows 7 SP1
- steps-to-reproduce: |
+steps-to-reproduce: |
     1. Зайти на сайт https://hexlet-products-store.vercel.app/
     2. В пункте производитель выбрать "Infinix"
- expected-result: |
+expected-result: |
     Отображено окно товара в сжатом виде
- actual-result: |
+actual-result: |
     Окно товара отображено без сжатия
 
 
@@ -205,48 +205,48 @@ status: fail
     
 - summary: |
     Ввод в поле "До" (фильтрации товара по цене)  отрицательные числа (и в мобильной версии)
-  environment: |
+environment: |
     PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
     Firefox browser 108.0.1 (64-разрядный)
     ОС Windows 7 SP1
     Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
     Xiaomi Redmi Note 11,  ОС Android 12
     Honor 8A,  ОС Android 9
-  steps-to-reproduce: |
+steps-to-reproduce: |
     1. Зайти на сайт https://hexlet-products-store.vercel.app/
     2. Прокрутить страницу вниз до пункта цена
     3. В поля "до" ввести отрицательные числа
-  expected-result: |
+expected-result: |
     Отображено уведомление "Ничего не найдено!"
-  actual-result: |
+actual-result: |
     Отображена начальная страница без возможности перелистывания 
 
 
 
 - summary: |
     Ввод в поле "До" (фильтрации товара по цене) цену меньше самого дешевого товара (и в мобильной версии)
-  environment: |
+environment: |
     PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
     Firefox browser 108.0.1 (64-разрядный)
     ОС Windows 7 SP1
     Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
     Xiaomi Redmi Note 11,  ОС Android 12
     Honor 8A,  ОС Android 9
-  steps-to-reproduce: |
+steps-to-reproduce: |
     1. Зайти на сайт https://hexlet-products-store.vercel.app/
     2. Прокрутить страницу вниз до пункта цена
     3. В поля "до" ввести цифру 13 и меньше
-  expected-result: |
+expected-result: |
     Отображено уведомление "Ничего не найдено!"
-  actual-result: |
+actual-result: |
     Отображена начальная страница без возможности перелистывания 
 
 
 
 
 - summary: |
-    Проверка чекбокса "В наличии"  (Проверка товаров, которых нет в наличии)
-  environment: |
+    Проверка чекбокса "В наличии"  (Проверка товаров, которых нет в наличии) (и в мобильной версии)
+environment: |
     PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
     Firefox browser 108.0.1 (64-разрядный)
     ОС Windows 7 SP1
@@ -254,21 +254,21 @@ status: fail
     Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
     Xiaomi Redmi Note 11,  ОС Android 12
     Honor 8A,  ОС Android 9
-  steps-to-reproduce: |
+steps-to-reproduce: |
     1. Зайти на сайт https://hexlet-products-store.vercel.app/
     2. Прокрутить страницу вниз до пункта "В наличии"
     3. Снять галочку чекбокса "В наличии"
-  expected-result: |
+expected-result: |
     Отображены товары, которых нет в наличии
-  actual-result: |
+actual-result: |
     Отображена начальная страница без возможности перелистывания 
     
     
     
 
 - summary: |
-    При вводе кириллицы, бязи или иероглифов в поле поиска, пропадает возможность перелистывания страниц
-  environment: |
+    При вводе кириллицы, бязи или иероглифов в поле поиска, пропадает возможность перелистывания страниц (и в мобильной версии)
+environment: |
     PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
     Firefox browser 108.0.1 (64-разрядный)
     ОС Windows 7 SP1
@@ -276,12 +276,12 @@ status: fail
     Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
     Xiaomi Redmi Note 11,  ОС Android 12
     Honor 8A,  ОС Android 9
-  steps-to-reproduce: |
-    1. Зайти на сайт https:/ /hexlet-products-store.vercel.app/
+steps-to-reproduce: |
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
     2. Ввести в поле поиска кириллицу, бязь или иероглифы
-  expected-result: |
+expected-result: |
     По запросу ничего не нашлось 
-  actual-result: |
+actual-result: |
     Отображена начальная страница без возможности перелистывания 
     
     
@@ -293,7 +293,7 @@ environment: |
     Xiaomi Redmi Note 11,  ОС Android 12
     Honor 8A,  ОС Android 9
 steps-to-reproduce: |
-    1. Зайти на сайт https:/ /hexlet-products-store.vercel.app/
+    1. Зайти на сайт https://hexlet-products-store.vercel.app/
     2. Прокрутить страницу вниз до поля поиска
 expected-result: |
     Поле поиска на начальной странице под шапкой (хеддером)
