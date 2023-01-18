@@ -26,6 +26,30 @@
   status: pass
 
 - summary: |
+Проверка работы мобильной версии сайта через браузер Google Chrome
+  status: pass
+
+- summary: |
+Проверка работы мобильной версии сайта через браузер Mozilla Firefox
+  status: pass
+
+- summary: |
+Проверка работы мобильной версии сайта через браузер Microsoft Edge
+  status: pass
+  
+- summary: |
+Проверка работы мобильной версии сайта через браузер Opera 
+  status: pass
+
+- summary: |
+Проверка работы мобильной версии сайта через Яндекс Браузер
+  status: pass
+
+- summary: |
+Проверка работы мобильной версии сайта через браузер Safari
+  status: pass
+
+- summary: |
 Фильтрация товара по цене 
   status: pass
   
