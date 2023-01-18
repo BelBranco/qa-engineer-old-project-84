@@ -6,6 +6,26 @@
   status: pass
 
 - summary: |
+Проверка работы сайта через браузер Google Chrome
+  status: pass
+
+- summary: |
+Проверка работы сайта через браузер Mozilla Firefox
+  status: pass
+
+- summary: |
+Проверка работы сайта через браузер Microsoft Edge
+  status: pass
+  
+- summary: |
+Проверка работы сайта через браузер Opera 
+  status: pass
+
+- summary: |
+Проверка работы сайта через Яндекс Браузер
+  status: pass
+
+- summary: |
 Фильтрация товара по цене 
   status: pass
   
@@ -287,7 +307,7 @@ actual-result: |
     
   
 - summary: |
-     В мобильной версии поле поиска, находится в конце списка товаров
+     В мобильной версии поле поиска, находится под списком товаров
 environment: |
     Mobile: Google Chrome   Версия 108.0.5359.128 (Официальная сборка), (64 бит)
     Xiaomi Redmi Note 11,  ОС Android 12
