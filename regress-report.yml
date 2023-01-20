@@ -203,7 +203,7 @@ actual-result: |
     
 - summary: |
     В выпадающем меню "категории" отображен пустой пункт (и в мобильной версии)
-   environment: |
+environment: |
     PC: Google Chrome   Версия 108.0.5359.125 (Официальная сборка), (64 бит)
     Firefox browser 108.0.1 (64-разрядный)
     ОС Windows 7 SP1
